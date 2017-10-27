@@ -65,6 +65,35 @@ nav .login{      /*Dando borde al boton login*/
 	top: -15px;
 }
 
+/*______________________________MENÚ 2 DESPLEGABLE CON JAVASCRIPT: VER ARCHIVO nav.js_______________________________________________*/
+
+
+.nav2{
+	background-color: white;   /*menu desplegable , fixed ocupo el z index para que quede por sobre los otros elementos.*/
+	position: fixed;
+	height: 120px;
+	width: 100%;
+	z-index: 2000;
+	margin-top: -20px;
+}
+.nav2 .clickmenutotal .clickmenu,.nav2 .clickmenutotal .fa-angle-down{ /* Cambio de color de fuente al menú desplegable*/
+	color:#333447;
+
+}
+.nav2 .clickmenutotal .clickmenu:hover ,.nav2 .clickmenutotal .fa-angle-down:hover{ /*Cambio de color al pasar el mouse en menu desplegable*/
+	color:#ff00bf; 
+}
+#logot{  
+	width:64px;
+	height:46px;
+	margin-top: 40px;	
+	margin-left: 80px;
+	margin-right: 640px;
+}
+
+.nav2 .login{
+border-color:  #d8dce6
+}
 
 /*_______________________________________________________Cuadrado blanco Sign UP________________________________________________________*/
 
@@ -155,7 +184,10 @@ input{                    /*Aplicando un input */
 
 }
 
-.signup h6 a {
+.signup h6 a {    /*gh-pages no toma me en cuenta esta regla (por eso se ve con text-decoration, pero al abrirlo localmente se ve bien, 
+	y al subir estos archivos a un repositorio nuevo tambien se ve bien (de color rosado y sin decoración
+	, nosé aun cual es el problema.*/
+
 	text-decoration:none;
 	color:#ff00bf;
 }
@@ -168,35 +200,7 @@ input{                    /*Aplicando un input */
 	margin-top: -75px
 	
 }
-/*______________________________MENÚ 2 DESPLEGABLE CON JAVASCRIPT: VER ARCHIVO nav.js_______________________________________________*/
 
-
-.nav2{
-	background-color: white;   /*menu desplegable , fixed ocupo el z index para que quede por sobre los otros elementos.*/
-	position: fixed;
-	height: 120px;
-	width: 100%;
-	z-index: 2000;
-	margin-top: -20px;
-}
-.nav2 .clickmenutotal .clickmenu,.nav2 .clickmenutotal .fa-angle-down{ /* Cambio de color de fuente al menú desplegable*/
-	color:#333447;
-
-}
-.nav2 .clickmenutotal .clickmenu:hover ,.nav2 .clickmenutotal .fa-angle-down:hover{ /*Cambio de color al pasar el mouse en menu desplegable*/
-	color:#ff00bf;
-}
-#logot{  
-	width:64px;
-	height:46px;
-	margin-top: 40px;	
-	margin-left: 80px;
-	margin-right: 640px;
-}
-
-.nav2 .login{
-border-color:  #d8dce6
-}
 
 /*__________________________________________________________SECCIÓN-2_____________________________________________________________*/
 
