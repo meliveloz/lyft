@@ -177,20 +177,15 @@ input{                    /*Aplicando un input */
 	font-family: 'Montserrat', sans-serif;
 	font-size: 10px;
 	color: #919caf;
-	margin-left: 100px;
+	margin-left: 60px;
 	margin-top: 0;
     margin-bottom: 10px;
-    display: inline-block;
-    margin-right: 0;
-    padding-right: 0;
 
 }
 
-.signup a {
+.signup h6 a {
 	text-decoration:none;
 	color:#ff00bf;
-	font-size:10px;
-		font-family: 'Montserrat', sans-serif;
 }
 
 .degradado{  /*div degradado ,para eliminar linea divisoria entre el video y la siguiente sección*/
