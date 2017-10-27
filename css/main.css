@@ -1,3 +1,441 @@
-/*
- * Estilos de tu proyecto
- */
+body{
+margin: 0 auto;
+max-width: 1449px;
+
+}
+
+#videoback{               /*Medidas para poner el video como fondo de pantalla*/
+	width: 100%;
+	max-width: 1449px;
+	height: auto;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	z-index: -1;        /*el z-index negativo coloca el video por debajo de los otros elementos */
+	margin-top: -121px;
+}
+
+
+.section-principal{
+	height: 440px;
+}
+/*___________________________________________________________________Menú____________________________________________________________*/
+
+nav{
+	height: 100px;
+
+}
+
+nav a img{       /* Dando dimensiones al logo blanco lyft*/
+	width:64px;
+	height:46px;
+	margin-top: 40px;	
+	margin-left: 80px;
+	margin-right: 640px;
+	
+}
+nav .clickmenu{
+	text-decoration: none;
+	color:white;
+	margin-right: 40px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	line-height: 37px;
+}
+ .clickmenu:hover,.fa-angle-down:hover{   /*cambio de color al pasas el mouse por el menú*/
+	color:#ff00bf;
+}
+
+nav .login{      /*Dando borde al boton login*/
+	border:1px solid white;
+	border-radius: 10px;
+	padding:12px 15px;
+}
+
+.fa-angle-down{
+	color: white;
+	position: relative;
+    right: 34px;
+    font-size: 20px;
+}
+
+.clickmenutotal{   /*Contenedor de los botones del menú*/
+	display: inline-block;
+	position: relative;
+	top: -15px;
+}
+/*______________________________MENÚ 2 DESPLEGABLE CON JAVASCRIPT: VER ARCHIVO nav.js_______________________________________________*/
+
+
+.nav2{
+	background-color: white;   /*menu desplegable , fixed ocupo el z index para que quede por sobre los otros elementos.*/
+	position: fixed;
+	height: 120px;
+	width: 100%;
+	z-index: 2000;
+	margin-top: -20px;
+}
+.nav2 .clickmenutotal .clickmenu,.nav2 .clickmenutotal .fa-angle-down{ /* Cambio de color de fuente al menú desplegable*/
+	color:#333447;
+
+}
+.nav2 .clickmenutotal .clickmenu:hover ,.nav2 .clickmenutotal .fa-angle-down:hover{ /*Cambio de color al pasar el mouse en menu desplegable*/
+	color:#ff00bf;
+}
+#logot{  
+	width:64px;
+	height:46px;
+	margin-top: 40px;	
+	margin-left: 80px;
+	margin-right: 640px;
+}
+
+.nav2 .login{
+border-color:  #d8dce6
+}
+
+/*_______________________________________________________Cuadrado blanco Sign UP________________________________________________________*/
+
+.signup{
+	background-color: white; /*Contenedor*/
+	width: 560px;
+	height: 420px;
+	margin-left: 788px;
+	text-align: left;
+	margin-top: 20px;
+
+}
+
+.signup h2{
+	color: #352384;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 38px;
+	font-weight:900;
+	margin: 0;
+	margin-left: 60px;
+	line-height: 43px;
+
+}
+.signup h2:first-child{
+	padding-top: 60px;
+}
+
+
+.signup h4{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color:#352384;
+	margin-left: 60px;
+	margin-top: 8px;
+}
+
+input{                    /*Aplicando un input */
+	border:none;
+	border-bottom: 1px solid black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	padding-bottom: 8px;
+	width: 446px;
+
+
+}
+::placeholder{   /*Para dar estilo al placeholder */
+	color: #c7cedd;
+	margin-bottom: 10px;
+}
+
+.signup h5 a{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+	margin-left: 28px;
+	color: white;
+}
+
+.signup h5 {
+	
+	width: 185px;
+	height: 35px;
+	margin-left: 60px;
+	border-radius: 8px;
+	padding-top: 20px;
+	background-color: #ff00bf;
+	display: inline-block;
+	margin-top: 0;
+}
+.signup .signuptoride{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #919caf;
+	padding-left: 15px;
+}
+.signup .signuptoride:hover{
+	color: #b30086;
+	}
+.signup h6{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+	color: #919caf;
+	margin-left: 60px;
+	margin-top: 0;
+    margin-bottom: 10px;
+
+}
+
+.signup h6 a {
+	text-decoration:none;
+	color:#ff00bf;
+}
+
+.degradado{  /*div degradado ,para eliminar linea divisoria entre el video y la siguiente sección*/
+	height: 99px;
+	width: 785px;
+	background: linear-gradient(transparent,#76278f);
+	position:relative;
+	margin-top: -75px
+	
+}
+
+/*__________________________________________________________SECCIÓN-2_____________________________________________________________*/
+
+.section2{
+	background:linear-gradient(#76278F, #2B1E66);
+	height: 630px;
+	font-family: 'Montserrat', sans-serif;
+	color:white;
+
+}
+.aboutlift{
+	display: inline-block;
+	width: 465px;
+	height: 486px;
+	margin-left: 150px;
+	margin-right: 100px;
+	position: relative;
+    top: -108px;
+}
+.aboutlift h2{
+	font-size: 28px;
+	font-weight: 500;
+}
+.aboutlift p{
+	font-size:16px;
+	font-weight: normal;
+}
+.section2 img{
+	display: inline-block;
+	width: 460px;
+	height: 510px;
+	margin-top: 70px;
+}
+/*________________________________________________________________SECCIÓN 3________________________________________________________*/
+
+.section3{
+	height: 1354px;
+	background: white;
+}
+.learnmore {
+	background: white;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 100px;
+	display: inline-block;
+	height: 440px;
+}
+.learnmore h5{
+	font-size: 14px;
+	color: black;
+	width: 300px;
+}	
+.learnmore h5:first-child{
+	margin-bottom: 0;
+	}
+.learnmore h2{
+	font-size: 28px;
+	color: black;
+	margin-top: 0;
+}
+.video1{
+	display: inline-block;
+	float:right;
+	width: 900px;
+	height: 450px;
+}
+
+.june{
+	
+	background: white;
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	height: 440px;
+	float:right;
+	margin-right: 100px;
+}
+.june h5{
+	font-size: 14px;
+	color: black;
+	width: 300px;
+}
+.june h2{
+	font-size: 28px;
+	color: black;
+	margin-top: 0;
+}
+.june h5:first-child{
+	margin-bottom: 0;
+	}
+.video2{
+	display: inline-block;
+	width: 900px;
+	height: 450px;
+	
+}
+
+.agoodthing{
+	background: white;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 100px;
+	display: inline-block;
+	height: 440px;
+}
+.agoodthing h5{
+	font-size: 14px;
+	color: black;
+	width: 300px;
+}	
+.agoodthing h5:first-child{
+	margin-bottom: 0;
+	}
+.agoodthing h2{
+	font-size: 28px;
+	color: black;
+	margin-top: 0;
+}
+.video3{
+	display: inline-block;
+	float:right;
+	width: 900px;
+	height: 450px;
+}
+
+
+/*_________________________________________________________FOOTER______________________________________________________________________*/
+footer{
+	background-color: #333447;
+	height: 550px;
+}
+
+table{
+	
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 30px;
+    padding-left: 100px;
+    display: inline-block;
+   
+}
+
+table tr th{
+	padding-right: 200px;
+	padding-bottom: 20px;
+}
+table tr th a{
+	text-decoration:none;
+	color: white;
+	font-size: 16px;
+
+}
+table tr th:last-child{
+	padding-right: 0;
+	font-weight: 300px;
+
+}
+table tr td{
+	padding-bottom: 25px;
+}
+
+
+table tr td a:hover{
+	color:#FF00BF;
+}
+
+table tr td a{
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+}
+.google2,.microsoft{
+	width: 135px;
+	height: 40px;
+}
+
+.links ul li{
+	list-style: none;
+	margin-bottom: 30px;
+
+}
+.links{
+	float: right;
+    margin-right: 300px;
+    margin-top: 27px;
+
+}
+/*________________________________________________FOOTER: PARTE LINKS Y REDES SOCIALES______________________________________*/
+
+.lastpart{
+	height: 550px;
+}
+.links ul li{
+	list-style: none;
+	margin-bottom: 30px;
+}
+.links ul:last-child{
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.icons{
+	margin-top: 100px;
+	text-align: center;
+	
+}
+
+.fa-facebook, .fa-instagram, .fa-twitter{
+	color: white;
+	font-size:16px;
+	text-decoration:none;
+	border:2px solid white;
+	border-radius: 15px;
+    padding: 7px;
+    margin-right: 100px;
+
+}
+
+.fa-facebook{
+	border-radius: 30px;
+    padding: 7px 11px;
+
+}
+
+.fa-facebook:hover, .fa-instagram:hover, .fa-twitter:hover{
+	border:2px solid #FF00BF;
+	color:#FF00BF;
+}
+.icons a{
+	text-decoration: none;
+}
+
+hr{
+	margin-top: 30px;
+    width: 900px;
+    margin-right: 280px;
+    text-align: center;
+}
+
+h6{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: white;
+	font-weight: 300;
+	text-align: center;
+	padding-right: 90px;
+}

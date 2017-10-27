@@ -90,3 +90,18 @@ Este reto será evaluado sobre lo siguiente:
 * Indentación
 * Archivo `README.md` actualizado y correctamente redactado
 * Uso de comentarios para hacer tu código más legible
+
+
+
+## Actualización Read Me.
+* El background es un video, no puse el gif del repositorio original ya que no se ve de buena calidad al aumentar tamaño.
+* La primera parte consta de un Header.
+* El Header cuenta con un Nav (menú) en su interior. 
+* El Header tambien contiene la sección principal.
+* Añadi un div de color degradado y transparente para que no se note la transición entre la sección principal y la sección 2.
+* La segunda sección contiene la información sobre lyft.
+* La tercera sección contiene los videos y sus reseñas, los videos son insertados desde youtube.
+* El footer contiene una tabla con los links e imagenes que logotipos google e microsoft.
+* EL último div "icons" contiene los iconos de redes sociales y tambien la información copyrigth.
+* He creado un archivo javascript para hacer un navegador desplegable.
+* El nav.js cuenta con dos funciones , la primera para desplegar el menú fixed y la segunda para cambiar el logo lyft blanco por el logo pink.
