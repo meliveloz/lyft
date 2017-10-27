@@ -184,7 +184,7 @@ input{                    /*Aplicando un input */
 
 }
 
-a{    /*gh-pages no toma me en cuenta esta regla (por eso se ve con text-decoration, pero al abrirlo localmente se ve bien, 
+a.colorpink{    /*gh-pages no toma me en cuenta esta regla (por eso se ve con text-decoration, pero al abrirlo localmente se ve bien, 
 	y al subir estos archivos a un repositorio nuevo tambien se ve bien (de color rosado y sin decoración
 	, nosé aun cual es el problema.*/
 
